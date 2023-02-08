@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/microwave-summarize/static/css/main.97edc658.css",
-    "main.js": "/microwave-summarize/static/js/main.38a036ee.js",
-    "static/js/787.322a1d66.chunk.js": "/microwave-summarize/static/js/787.322a1d66.chunk.js",
-    "index.html": "/microwave-summarize/index.html",
-    "main.97edc658.css.map": "/microwave-summarize/static/css/main.97edc658.css.map",
-    "main.38a036ee.js.map": "/microwave-summarize/static/js/main.38a036ee.js.map",
-    "787.322a1d66.chunk.js.map": "/microwave-summarize/static/js/787.322a1d66.chunk.js.map"
+    "main.css": "./static/css/main.97edc658.css",
+    "main.js": "./static/js/main.4af40b85.js",
+    "static/js/787.322a1d66.chunk.js": "./static/js/787.322a1d66.chunk.js",
+    "index.html": "./index.html",
+    "main.97edc658.css.map": "./static/css/main.97edc658.css.map",
+    "main.4af40b85.js.map": "./static/js/main.4af40b85.js.map",
+    "787.322a1d66.chunk.js.map": "./static/js/787.322a1d66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97edc658.css",
-    "static/js/main.38a036ee.js"
+    "static/js/main.4af40b85.js"
   ]
 }
