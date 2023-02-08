@@ -15,12 +15,14 @@ function App() {
             </Link>
           </div>
         </div>
-        
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/vegetables" element={<Vegetables />} />
-          <Route path="/meatfish" element={<MeatFish />} />
+          <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+          <Route
+            path={`${process.env.PUBLIC_URL}/vegetables`}
+            element={<Vegetables />}
+          />
+          <Route path={`${process.env.PUBLIC_URL}/meatfish`}  element={<MeatFish />} />
         </Routes>
       </Router>
     </>
