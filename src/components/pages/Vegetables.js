@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { VesitablesData } from "../data/VesitablesData";
+import { VegetablesData } from "../data/VegetablesData";
 import Button from "../items/Button";
 import { Modal } from "../items/Modal";
 import PageLayout from "../PageLayout";
 
-function vesitables() {
+function Vegetables() {
   return (
     <>
       <PageLayout>
         <div>
           <div className="flex  flex-wrap ">
-            {VesitablesData.map((data) => {
+            {VegetablesData.map((data) => {
               return (
                 <>
                   <Modal
@@ -38,4 +38,4 @@ function vesitables() {
   );
 }
 
-export default vesitables;
+export default Vegetables;

@@ -31,7 +31,7 @@ function MeatFish() {
             </div>
             <div>
               <Button>
-                <Link to={"/vesitables"} >野菜</Link>
+                <Link to={"/vegetables"} >野菜</Link>
               </Button>
             </div>
           </div>

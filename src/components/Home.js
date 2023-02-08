@@ -8,12 +8,12 @@ const Home = () => {
       <HomeContainer >
        
         <div className="flex justify-center gap-20 h-full items-center">
-          <Link to={"vesitables"}>
+          <Link to={"/vegetables"}>
             <HomeContents vesitable>
               <h2>野菜</h2>
             </HomeContents>
           </Link>
-          <Link to={"meatfish"}>
+          <Link to={"/meatfish"}>
             <HomeContents meatfish>
               <h2>肉、魚</h2>
             </HomeContents>

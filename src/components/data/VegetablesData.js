@@ -1,6 +1,6 @@
 import React from "react";
 
-export const VesitablesData = [
+export const VegetablesData = [
   {
     id: 0,
     name: "人参",

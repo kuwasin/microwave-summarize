@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import Vesitables from "./components/pages/Vesitables";
+import Vegetables from "./components/pages/Vegetables";
 import MeatFish from "./components/pages/MeatFish";
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="vesitables" element={<Vesitables />} />
-          <Route path="meatfish" element={<MeatFish />} />
+          <Route path="/vegetables" element={<Vegetables />} />
+          <Route path="/meatfish" element={<MeatFish />} />
         </Routes>
       </Router>
     </>
