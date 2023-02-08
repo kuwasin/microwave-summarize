@@ -5,7 +5,7 @@ import MeatFish from "./components/pages/MeatFish";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="h-14 bg-red-400">
           <div className="h-full flex justify-center items-center">
             <Link to={"/"}>
